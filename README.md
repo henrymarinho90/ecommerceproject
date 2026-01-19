@@ -42,7 +42,7 @@ docs/erd/ # ERD screenshot(s)
 2) Run scripts in order from `sql/`:
    - `00_create_schema.sql`
    - `01_create_tables.sql`
-   - `02_load_csv.sql`  (edit file paths first)
+   - `02_load_csv.sql` 
    - `03_fix_types.sql`
    - `04_constraints.sql`
    - `05_qa.sql`
@@ -50,3 +50,4 @@ docs/erd/ # ERD screenshot(s)
 ### Notes
 - Dataset files are intentionally ignored from version control.
 - Foreign keys are created with `NOT VALID` to allow loading even if orphan records exist. QA scripts surface any issues.
+
