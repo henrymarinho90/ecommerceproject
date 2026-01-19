@@ -27,6 +27,8 @@ sql/ # database setup scripts
 scripts/ # helpers to download data + run setup
 
 docs/erd/ # ERD screenshot(s)
+
+
 <img width="721" height="798" alt="image" src="https://github.com/user-attachments/assets/75e1d076-56ef-4337-b890-20fc80fdf4cc" />
 
 
